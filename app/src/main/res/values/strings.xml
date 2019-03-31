@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Example1</string>
+    <string name="biru">BIRU</string>
+    <string name="merah">MERAH</string>
+    <string name="hijau">HIJAU</string>
+    <string name="title_activity_home">TUGAS ANDROID</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">AFTA DIZCA WAHANA</string>
+    <string name="nav_header_subtitle">143216042</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="jurusan">
+        <item>T. Informatika</item>
+        <item>T. Mesin</item>
+        <item>T. Komputer</item>
+        <item>Management</item>
+    </string-array>
+</resources>

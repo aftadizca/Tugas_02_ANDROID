@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".Tugas04">
+    <Button
+            android:text="Select All"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/selAll" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:textSize="14sp" android:padding="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/desAll" android:layout_marginEnd="8dp"/>
+    <Button
+            android:text="Deselect All"
+            android:textColor="@color/colorAccent"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desAll" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@+id/selAll" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            app:layout_constraintHorizontal_bias="0.0" android:textSize="14sp" android:padding="20dp"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/desAll"
+            android:id="@+id/cb_container">
+        <CheckBox
+                android:text="Belanda Tidak Terpilih"
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:layout_height="wrap_content" android:id="@+id/nh_cb"
+                android:buttonTint="@color/colorPrimary"
+                android:textSize="14sp"/>
+        <CheckBox
+                android:text="Inggris Tidak Terpilih"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:buttonTint="@color/colorPrimary"
+                android:layout_height="wrap_content" android:id="@+id/en_cb" android:textSize="14sp"/>
+        <CheckBox
+                android:text="Jerman Tidak Terpilih"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:buttonTint="@color/colorPrimary"
+                android:layout_height="wrap_content" android:id="@+id/ge_cb" android:textSize="14sp"/>
+        <CheckBox
+                android:text="Indonesia Tidak Terpilih"
+                android:layout_width="match_parent"
+                android:textAllCaps="true"
+                android:buttonTint="@color/colorPrimary"
+                android:layout_height="wrap_content" android:id="@+id/id_cb" android:textSize="14sp"
+        />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
