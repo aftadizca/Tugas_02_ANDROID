@@ -19,7 +19,7 @@ class Home : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListene
     lateinit var txt: TextView
     private val FragmentTugas03 = Tugas03()
     private val fragment_tugas_04 = Tugas04()
-    private val fragment_tugas_05 = Tugas05()
+    private val fragment_tugas_06 = Tugas06()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -74,9 +74,9 @@ class Home : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListene
                 val fragmentTransaction = supportFragmentManager.beginTransaction()
                 fragmentTransaction.replace(R.id.frame, fragment_tugas_04).commit()
             }
-            R.id.tugas_05 -> {
+            R.id.tugas_06 -> {
                 val fragmentTransaction = supportFragmentManager.beginTransaction()
-                fragmentTransaction.replace(R.id.frame, fragment_tugas_05).commit()
+                fragmentTransaction.replace(R.id.frame, fragment_tugas_06).commit()
             }
         }
 

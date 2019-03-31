@@ -15,8 +15,8 @@
                         android:title="Tugas 04"
                         android:icon="@drawable/ic_school_black_24dp"/>
                 <item
-                        android:id="@+id/tugas_05"
-                        android:title="Tugas 05"
+                        android:id="@+id/tugas_06"
+                        android:title="Tugas 06"
                         android:icon="@drawable/ic_school_black_24dp"/>
             </group>
         </menu>
